@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="framework.dao.UserDao">
+    <select id="userInfo" parameterType="framework.pojo.query.UserQuery"  resultType="framework.pojo.User">
+        select *
+        from test.user
+        <where>
+            <if test="name != null and name != ''">
+                and `name` like concat('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+</mapper>
