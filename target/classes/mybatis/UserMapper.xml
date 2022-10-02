@@ -12,4 +12,18 @@
             </if>
         </where>
     </select>
+
+    <select id="userCreated" parameterType="framework.pojo.User"  resultType="framework.pojo.User">
+        INSERT INTO test.user (name,pwd) VALUES (#{name},#{pwd})
+    </select>
+
+    <select id="userDeleteById" parameterType="java.lang.Integer" >
+        DELETE FROM `user`
+            <where>
+                <if test="id!=null and id!=''">
+                    id=#{id}
+                </if>
+            </where>
+    </select>
+
 </mapper>

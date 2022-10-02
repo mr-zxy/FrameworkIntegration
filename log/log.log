@@ -810,3 +810,393 @@ java.lang.ClassCastException: com.github.pagehelper.PageInfo cannot be cast to j
 2022-09-20 22:56:38.358  INFO 46979 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-09-20 22:56:38.360  INFO 46979 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-09-20 22:56:38.367  INFO 46979 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 09:57:22.734  INFO 15624 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 15624 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 09:57:22.739  INFO 15624 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 09:57:22.920  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 09:57:22.921  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 09:57:25.125  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 09:57:25.138  INFO 15624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 09:57:25.138  INFO 15624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 09:57:25.384  INFO 15624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 09:57:25.385  INFO 15624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2462 ms
+2022-09-29 09:57:26.255  INFO 15624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 09:57:26.366  INFO 15624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 09:57:26.794  INFO 15624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 09:57:26.855  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 09:57:26.873  INFO 15624 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 5.75 seconds (JVM running for 10.246)
+2022-09-29 09:57:57.732  INFO 15624 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 09:57:57.733  INFO 15624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 09:57:57.735  INFO 15624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-29 09:58:01.666  INFO 15624 --- [http-nio-8081-exec-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 10:11:34.925  INFO 15624 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:11:34.925  INFO 15624 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-29 10:11:34.936  INFO 15624 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 10:11:44.377  INFO 12544 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12544 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:11:44.380  INFO 12544 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:11:44.445  INFO 12544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:11:44.446  INFO 12544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:11:46.023  INFO 12544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:11:46.032  INFO 12544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:11:46.033  INFO 12544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:11:46.106  INFO 12544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:11:46.106  INFO 12544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1659 ms
+2022-09-29 10:11:46.510  INFO 12544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:11:46.630  INFO 12544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:11:46.781  INFO 12544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:11:46.815  INFO 12544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:11:46.825  INFO 12544 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.869 seconds (JVM running for 4.342)
+2022-09-29 10:11:53.924  INFO 12544 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:11:53.925  INFO 12544 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:11:53.926  INFO 12544 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 10:12:34.229  INFO 12544 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:12:34.230  INFO 12544 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:12:40.520  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12940 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:12:40.523  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:12:40.593  INFO 12940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:12:40.594  INFO 12940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:12:41.722  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:12:41.730  INFO 12940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:12:41.730  INFO 12940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:12:41.805  INFO 12940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:12:41.806  INFO 12940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2022-09-29 10:12:42.204  INFO 12940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:12:42.334  INFO 12940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:12:42.468  INFO 12940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:12:42.498  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:12:42.507  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.625 seconds (JVM running for 3.868)
+2022-09-29 10:12:52.739  INFO 12940 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:12:52.740  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:12:52.741  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 10:15:35.000  INFO 12940 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:35.003  INFO 12940 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:15:35.276  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12940 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:15:35.277  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:15:35.784  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:15:35.786  INFO 12940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:15:35.786  INFO 12940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:15:35.842  INFO 12940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:15:35.842  INFO 12940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2022-09-29 10:15:36.011  INFO 12940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:36.034  INFO 12940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:15:36.113  INFO 12940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:15:36.141  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:15:36.150  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 0.94 seconds (JVM running for 177.511)
+2022-09-29 10:15:36.153  INFO 12940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-29 10:15:38.004  INFO 12940 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:38.005  INFO 12940 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:15:38.268  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12940 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:15:38.269  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:15:38.762  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:15:38.766  INFO 12940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:15:38.767  INFO 12940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:15:38.934  INFO 12940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:15:38.935  INFO 12940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2022-09-29 10:15:39.153  INFO 12940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:39.177  INFO 12940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:15:39.256  INFO 12940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:15:39.296  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:15:39.305  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 1.083 seconds (JVM running for 180.666)
+2022-09-29 10:15:39.311  INFO 12940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-29 10:15:39.882  INFO 6372 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 6372 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:15:39.887  INFO 6372 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:15:39.990  INFO 6372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:15:39.990  INFO 6372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:15:41.170  INFO 6372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:15:41.179  INFO 6372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:15:41.180  INFO 6372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:15:41.259  INFO 6372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:15:41.260  INFO 6372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2022-09-29 10:15:41.759  INFO 6372 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:41.944  INFO 6372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:15:42.144  WARN 6372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-29 10:15:42.174  WARN 6372 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-09-29 10:15:42.178  INFO 6372 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:15:42.178  INFO 6372 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:15:42.181  INFO 6372 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-29 10:15:42.198  INFO 6372 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-29 10:15:42.219 ERROR 6372 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-09-29 10:15:57.435  INFO 12940 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:15:57.436  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:15:57.438  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 10:31:20.691  INFO 12940 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:20.693  INFO 12940 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:31:20.948  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12940 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:31:20.948  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:31:21.257  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-29 10:31:21.259  INFO 12940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:31:21.259  INFO 12940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:31:21.291  INFO 12940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:31:21.291  INFO 12940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 339 ms
+2022-09-29 10:31:21.410  INFO 12940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:21.429  INFO 12940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:31:21.478  INFO 12940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:31:21.493  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-09-29 10:31:21.499  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 0.589 seconds (JVM running for 1122.86)
+2022-09-29 10:31:21.503  INFO 12940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-29 10:31:22.261  INFO 18272 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 18272 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:31:22.264  INFO 18272 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:31:22.335  INFO 18272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:31:22.336  INFO 18272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:31:23.890  INFO 18272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-29 10:31:23.899  INFO 18272 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:31:23.899  INFO 18272 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:31:23.977  INFO 18272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:31:23.977  INFO 18272 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1640 ms
+2022-09-29 10:31:24.487  INFO 18272 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:24.619  INFO 18272 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:31:24.772  WARN 18272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-29 10:31:24.800  WARN 18272 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2022-09-29 10:31:24.803  INFO 18272 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:24.803  INFO 18272 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:31:24.806  INFO 18272 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-29 10:31:24.824  INFO 18272 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-29 10:31:24.841 ERROR 18272 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2022-09-29 10:31:36.029  INFO 12940 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:31:36.030  INFO 12940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:31:36.031  INFO 12940 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-29 10:31:52.399  INFO 12940 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:52.399  INFO 12940 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:31:52.654  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12940 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:31:52.654  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:31:53.051  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:31:53.052  INFO 12940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:31:53.053  INFO 12940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:31:53.077  INFO 12940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:31:53.077  INFO 12940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2022-09-29 10:31:53.219  INFO 12940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:53.235  INFO 12940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:31:53.307  INFO 12940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:31:53.328  INFO 12940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:31:53.336  INFO 12940 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 0.726 seconds (JVM running for 1154.697)
+2022-09-29 10:31:53.339  INFO 12940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-29 10:31:53.346  INFO 14012 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 14012 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:31:53.348  INFO 14012 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:31:53.419  INFO 14012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:31:53.623  INFO 14012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:31:54.678  INFO 14012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:31:54.687  INFO 14012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:31:54.687  INFO 14012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:31:54.760  INFO 14012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:31:54.761  INFO 14012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1137 ms
+2022-09-29 10:31:55.147  INFO 14012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:55.272  INFO 14012 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:31:55.414  WARN 14012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-29 10:31:55.443  WARN 14012 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-09-29 10:31:55.445  INFO 14012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:31:55.446  INFO 14012 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 10:31:55.448  INFO 14012 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-29 10:31:55.465  INFO 14012 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-29 10:31:55.480 ERROR 14012 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-09-29 10:32:02.326  INFO 12940 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:32:02.327  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:32:02.328  INFO 12940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 10:57:11.645  INFO 18188 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 18188 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 10:57:11.649  INFO 18188 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 10:57:11.772  INFO 18188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 10:57:11.774  INFO 18188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 10:57:13.039  INFO 18188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 10:57:13.047  INFO 18188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 10:57:13.047  INFO 18188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 10:57:13.121  INFO 18188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 10:57:13.121  INFO 18188 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2022-09-29 10:57:13.611  INFO 18188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 10:57:13.722  INFO 18188 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 10:57:13.860  INFO 18188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 10:57:13.894  INFO 18188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 10:57:13.903  INFO 18188 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 3.111 seconds (JVM running for 5.385)
+2022-09-29 10:57:19.292  INFO 18188 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 10:57:19.292  INFO 18188 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 10:57:19.293  INFO 18188 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 11:00:36.778  INFO 18188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:00:36.779  INFO 18188 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 11:00:43.954  INFO 3132 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 3132 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:00:43.965  INFO 3132 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:00:44.087  INFO 3132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:00:44.087  INFO 3132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:00:45.388  INFO 3132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:00:45.397  INFO 3132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:00:45.397  INFO 3132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:00:45.471  INFO 3132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:00:45.472  INFO 3132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1382 ms
+2022-09-29 11:00:45.876  INFO 3132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:00:46.009  INFO 3132 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:00:46.159  INFO 3132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:00:46.191  INFO 3132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:00:46.205  INFO 3132 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 3.036 seconds (JVM running for 4.34)
+2022-09-29 11:01:03.794  INFO 3132 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:01:03.795  INFO 3132 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:01:03.797  INFO 3132 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-29 11:01:03.894  INFO 3132 --- [http-nio-8081-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 11:02:28.758  INFO 3132 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:02:28.758  INFO 3132 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-29 11:02:28.766  INFO 3132 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 11:02:36.523  INFO 11364 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 11364 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:02:36.528  INFO 11364 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:02:36.581  INFO 11364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:02:36.581  INFO 11364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:02:39.055  INFO 11364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:02:39.063  INFO 11364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:02:39.064  INFO 11364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:02:39.153  INFO 11364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:02:39.153  INFO 11364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2570 ms
+2022-09-29 11:02:39.560  INFO 11364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:02:39.701  INFO 11364 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:02:39.889  INFO 11364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:02:39.925  INFO 11364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:02:39.936  INFO 11364 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 3.978 seconds (JVM running for 5.379)
+2022-09-29 11:02:50.541  INFO 11364 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:02:50.542  INFO 11364 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-29 11:02:56.721  INFO 16784 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 16784 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:02:56.724  INFO 16784 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:02:56.790  INFO 16784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:02:56.790  INFO 16784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:02:57.790  INFO 16784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:02:57.798  INFO 16784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:02:57.798  INFO 16784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:02:57.898  INFO 16784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:02:57.899  INFO 16784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1107 ms
+2022-09-29 11:02:58.511  INFO 16784 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:02:58.645  INFO 16784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:02:58.818  INFO 16784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:02:58.863  INFO 16784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:02:58.877  INFO 16784 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.828 seconds (JVM running for 3.915)
+2022-09-29 11:02:59.028  INFO 16784 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:02:59.029  INFO 16784 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:02:59.031  INFO 16784 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 11:02:59.048  WARN 16784 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:06:14.482  INFO 16784 --- [http-nio-8081-exec-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 11:14:58.851  INFO 16784 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:14:58.852  INFO 16784 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-29 11:14:58.858  INFO 16784 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 11:15:28.493  INFO 15548 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 15548 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:15:28.495  INFO 15548 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:15:28.551  INFO 15548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:15:28.552  INFO 15548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:15:29.562  INFO 15548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:15:29.570  INFO 15548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:15:29.570  INFO 15548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:15:29.644  INFO 15548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:15:29.645  INFO 15548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1091 ms
+2022-09-29 11:15:30.015  INFO 15548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:15:30.127  INFO 15548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:15:30.269  INFO 15548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:15:30.303  INFO 15548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:15:30.313  INFO 15548 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.279 seconds (JVM running for 4.218)
+2022-09-29 11:16:48.292  INFO 15548 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:16:48.292  INFO 15548 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:16:48.294  INFO 15548 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-29 11:16:48.306  WARN 15548 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:18:53.002  INFO 15548 --- [http-nio-8081-exec-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 11:20:56.292  INFO 15548 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:20:56.293  INFO 15548 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-29 11:20:56.298  INFO 15548 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 11:20:59.408  INFO 7832 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 7832 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:20:59.413  INFO 7832 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:20:59.484  INFO 7832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:20:59.485  INFO 7832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:21:00.458  INFO 7832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:21:00.465  INFO 7832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:21:00.465  INFO 7832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:21:00.530  INFO 7832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:21:00.530  INFO 7832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2022-09-29 11:21:00.885  INFO 7832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:21:01.026  INFO 7832 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:21:01.152  INFO 7832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:21:01.183  INFO 7832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:21:01.192  INFO 7832 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.185 seconds (JVM running for 3.249)
+2022-09-29 11:21:22.512  INFO 7832 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:21:22.512  INFO 7832 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:21:22.513  INFO 7832 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 11:21:22.597  INFO 7832 --- [http-nio-8081-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 11:22:19.330  INFO 7832 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:22:19.331  INFO 7832 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-29 11:22:19.340  INFO 7832 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-29 11:22:24.930  INFO 12872 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 12872 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:22:24.932  INFO 12872 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:22:24.991  INFO 12872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:22:24.991  INFO 12872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:22:25.896  INFO 12872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:22:25.903  INFO 12872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:22:25.904  INFO 12872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:22:25.969  INFO 12872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:22:25.969  INFO 12872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2022-09-29 11:22:26.376  INFO 12872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:22:26.505  INFO 12872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:22:26.637  INFO 12872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:22:26.668  INFO 12872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:22:26.677  INFO 12872 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.215 seconds (JVM running for 3.174)
+2022-09-29 11:22:41.222  INFO 12872 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:22:41.222  INFO 12872 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:22:41.224  INFO 12872 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-29 11:22:41.338  INFO 12872 --- [http-nio-8081-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-29 11:28:59.899  WARN 12872 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:00.667  WARN 12872 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:01.001  WARN 12872 --- [http-nio-8081-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:01.284  WARN 12872 --- [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:01.469  WARN 12872 --- [http-nio-8081-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:01.624  WARN 12872 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:01.972  WARN 12872 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:29:02.171  WARN 12872 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-09-29 11:36:28.363  INFO 15040 --- [restartedMain] framework.SpringbootMybatisApplication   : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 15040 (D:\java\FrameworkIntegration\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-09-29 11:36:28.401  INFO 15040 --- [restartedMain] framework.SpringbootMybatisApplication   : No active profile set, falling back to default profiles: default
+2022-09-29 11:36:28.509  INFO 15040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 11:36:28.510  INFO 15040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 11:36:29.642  INFO 15040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-29 11:36:29.650  INFO 15040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 11:36:29.650  INFO 15040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-09-29 11:36:29.723  INFO 15040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 11:36:29.723  INFO 15040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2022-09-29 11:36:30.132  INFO 15040 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-29 11:36:30.274  INFO 15040 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-09-29 11:36:30.435  INFO 15040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 11:36:30.477  INFO 15040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-29 11:36:30.489  INFO 15040 --- [restartedMain] framework.SpringbootMybatisApplication   : Started SpringbootMybatisApplication in 2.754 seconds (JVM running for 4.11)
+2022-09-29 11:36:35.801  INFO 15040 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 11:36:35.801  INFO 15040 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 11:36:35.802  INFO 15040 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 11:36:35.931  INFO 15040 --- [http-nio-8081-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

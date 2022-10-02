@@ -21,4 +21,15 @@ public class UserServiceImpl implements UserService{
         PageHelper.startPage(userQuery.getPageNum(),userQuery.getPageSize());
         return new PageInfo<User>(userDao.userInfo(userQuery));
     }
+
+    @Override
+    public List<User> userCreated(User userInfo) {
+        userDao.userCreated(userInfo);
+        return null;
+    }
+
+    @Override
+    public void userDeleteById(Integer id) {
+        userDao.userDeleteById(id);
+    }
 }

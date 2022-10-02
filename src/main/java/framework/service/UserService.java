@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface UserService {
     public PageInfo<User> userInfo(UserQuery userQuery);
+    public List<User> userCreated(User userInfo);
+    public void userDeleteById(Integer id);
 }
