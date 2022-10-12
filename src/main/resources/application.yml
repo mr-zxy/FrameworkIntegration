@@ -19,3 +19,14 @@ logging:
     name: log/log.log
   level:
     root: info
+
+swagger:
+  base-path: /**
+  base-package: 'com.example'
+  title: 'spring-boot-swagger-demo'
+  description: '基于Swagger构建的SpringBoot RESTApi 文档'
+  version: '1.0'
+  contact:
+    name: '空夜'
+    url: 'http://www.eknown.cn'
+    email: 'eknown@163.com'
