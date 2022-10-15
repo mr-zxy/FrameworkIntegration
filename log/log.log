@@ -1,0 +1,41 @@
+2022-10-15 10:20:14.946  INFO 11036 --- [restartedMain] c.f.SpringbootMybatisApplication         : Starting SpringbootMybatisApplication using Java 11.0.6 on mr-zxy with PID 11036 (D:\java\FrameworkIntegration\framework\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-10-15 10:20:14.953  INFO 11036 --- [restartedMain] c.f.SpringbootMybatisApplication         : No active profile set, falling back to default profiles: default
+2022-10-15 10:20:15.019  INFO 11036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-15 10:20:15.019  INFO 11036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-15 10:20:16.500  INFO 11036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-15 10:20:16.509  INFO 11036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-15 10:20:16.509  INFO 11036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-10-15 10:20:16.587  INFO 11036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-15 10:20:16.588  INFO 11036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1534 ms
+2022-10-15 10:20:17.253  INFO 11036 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-15 10:20:17.319  INFO 11036 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-15 10:20:17.356  INFO 11036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-15 10:20:17.377  INFO 11036 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-10-15 10:20:17.542  INFO 11036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-15 10:20:17.543  INFO 11036 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-15 10:20:17.560  INFO 11036 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-15 10:20:17.586  INFO 11036 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-15 10:20:17.721  INFO 11036 --- [restartedMain] c.f.SpringbootMybatisApplication         : Started SpringbootMybatisApplication in 3.205 seconds (JVM running for 4.463)
+2022-10-15 10:20:57.789  INFO 11036 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-15 10:20:57.792  INFO 11036 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-10-15 10:21:07.382  INFO 11220 --- [restartedMain] c.f.SpringbootMybatisApplication         : Starting SpringbootMybatisApplication using Java 1.8.0_251 on mr-zxy with PID 11220 (D:\java\FrameworkIntegration\framework\target\classes started by 傻孩子 in D:\java\FrameworkIntegration)
+2022-10-15 10:21:07.386  INFO 11220 --- [restartedMain] c.f.SpringbootMybatisApplication         : No active profile set, falling back to default profiles: default
+2022-10-15 10:21:07.456  INFO 11220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-15 10:21:07.457  INFO 11220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-15 10:21:08.720  INFO 11220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-15 10:21:08.728  INFO 11220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-15 10:21:08.728  INFO 11220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-10-15 10:21:08.834  INFO 11220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-15 10:21:08.834  INFO 11220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2022-10-15 10:21:09.422  INFO 11220 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-15 10:21:09.485  INFO 11220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-15 10:21:09.516  INFO 11220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-15 10:21:09.535  INFO 11220 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-10-15 10:21:09.682  INFO 11220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-15 10:21:09.684  INFO 11220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-10-15 10:21:09.698  INFO 11220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-10-15 10:21:09.722  INFO 11220 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-10-15 10:21:09.863  INFO 11220 --- [restartedMain] c.f.SpringbootMybatisApplication         : Started SpringbootMybatisApplication in 2.991 seconds (JVM running for 4.135)
+2022-10-15 10:21:22.059  INFO 11220 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-15 10:21:22.059  INFO 11220 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-15 10:21:22.061  INFO 11220 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
