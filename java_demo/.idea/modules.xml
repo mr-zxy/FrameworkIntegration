@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java_demo.iml" filepath="$PROJECT_DIR$/java_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relex/relex.iml" filepath="$PROJECT_DIR$/relex/relex.iml" />
     </modules>
   </component>
 </project>

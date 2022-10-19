@@ -5,7 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>framework</module>
-        <module>common</module>
+        <module>utils</module>
+        <!--        <module>common</module>-->
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,6 +22,7 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

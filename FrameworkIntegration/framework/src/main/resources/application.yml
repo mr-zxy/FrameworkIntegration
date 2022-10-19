@@ -3,6 +3,10 @@ server:
 
 # 数据库数据源
 spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
