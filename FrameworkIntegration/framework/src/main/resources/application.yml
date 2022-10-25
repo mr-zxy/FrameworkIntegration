@@ -3,16 +3,17 @@ server:
 
 # 数据库数据源
 spring:
-  mvc:
-    view:
-      prefix: /pages/
-      suffix: .jsp
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 8.140.182.127
+    port: 6379
+    password: REDIS_ZXY_PASSWORD_abc_456
 
 mybatis:
   type-aliases-package: framework.pojo   #   别名

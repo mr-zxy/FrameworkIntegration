@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 @Api(tags=  "商品控制类",value = "这是对该类一个简单描述")
-@Controller
+@RestController
 public class UserController {
 
     private String username;
