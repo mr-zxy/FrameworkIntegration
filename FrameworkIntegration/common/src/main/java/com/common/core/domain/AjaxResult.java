@@ -1,8 +1,8 @@
 package com.common.core.domain;
 
 import java.util.HashMap;
-import java.util.Objects;
 
+import com.common.constant.HttpStatus;
 import com.common.utils.StringUtils;
 
 /**
@@ -24,30 +24,6 @@ public class AjaxResult extends HashMap<String, Object>
     public static final String DATA_TAG = "data";
 
     /**
-     * 状态类型
-     */
-    public enum Type
-    {
-        /** 成功 */
-        SUCCESS(0),
-        /** 警告 */
-        WARN(301),
-        /** 错误 */
-        ERROR(500);
-        private final int value;
-
-        Type(int value)
-        {
-            this.value = value;
-        }
-
-        public int value()
-        {
-            return this.value;
-        }
-    }
-
-    /**
      * 初始化一个新创建的 AjaxResult 对象，使其表示一个空消息。
      */
     public AjaxResult()
@@ -57,25 +33,25 @@ public class AjaxResult extends HashMap<String, Object>
     /**
      * 初始化一个新创建的 AjaxResult 对象
      *
-     * @param type 状态类型
+     * @param code 状态码
      * @param msg 返回内容
      */
-    public AjaxResult(Type type, String msg)
+    public AjaxResult(int code, String msg)
     {
-        super.put(CODE_TAG, type.value);
+        super.put(CODE_TAG, code);
         super.put(MSG_TAG, msg);
     }
 
     /**
      * 初始化一个新创建的 AjaxResult 对象
      *
-     * @param type 状态类型
+     * @param code 状态码
      * @param msg 返回内容
      * @param data 数据对象
      */
-    public AjaxResult(Type type, String msg, Object data)
+    public AjaxResult(int code, String msg, Object data)
     {
-        super.put(CODE_TAG, type.value);
+        super.put(CODE_TAG, code);
         super.put(MSG_TAG, msg);
         if (StringUtils.isNotNull(data))
         {
@@ -123,30 +99,7 @@ public class AjaxResult extends HashMap<String, Object>
      */
     public static AjaxResult success(String msg, Object data)
     {
-        return new AjaxResult(Type.SUCCESS, msg, data);
-    }
-
-    /**
-     * 返回警告消息
-     *
-     * @param msg 返回内容
-     * @return 警告消息
-     */
-    public static AjaxResult warn(String msg)
-    {
-        return AjaxResult.warn(msg, null);
-    }
-
-    /**
-     * 返回警告消息
-     *
-     * @param msg 返回内容
-     * @param data 数据对象
-     * @return 警告消息
-     */
-    public static AjaxResult warn(String msg, Object data)
-    {
-        return new AjaxResult(Type.WARN, msg, data);
+        return new AjaxResult(HttpStatus.SUCCESS, msg, data);
     }
 
     /**
@@ -179,27 +132,19 @@ public class AjaxResult extends HashMap<String, Object>
      */
     public static AjaxResult error(String msg, Object data)
     {
-        return new AjaxResult(Type.ERROR, msg, data);
+        return new AjaxResult(HttpStatus.ERROR, msg, data);
     }
 
     /**
-     * 是否为成功消息
+     * 返回错误消息
      *
-     * @return 结果
+     * @param code 状态码
+     * @param msg 返回内容
+     * @return 警告消息
      */
-    public boolean isSuccess()
+    public static AjaxResult error(int code, String msg)
     {
-        return !isError();
-    }
-
-    /**
-     * 是否为错误消息
-     *
-     * @return 结果
-     */
-    public boolean isError()
-    {
-        return Objects.equals(Type.ERROR.value, this.get(CODE_TAG));
+        return new AjaxResult(code, msg, null);
     }
 
     /**

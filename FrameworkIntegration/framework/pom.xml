@@ -11,19 +11,19 @@
 
     <artifactId>framework</artifactId>
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>FrameworkIntegration</groupId>-->
-<!--            <artifactId>common</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--            <scope>compile</scope>-->
-<!--        </dependency>-->
+
         <dependency>
             <groupId>FrameworkIntegration</groupId>
             <artifactId>utils</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-
+        <dependency>
+            <groupId>FrameworkIntegration</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <properties>

@@ -1,6 +1,6 @@
 package com.framework.controller;
 
-//import com.common.core.domain.AjaxResult;
+import com.common.core.domain.AjaxResult;
 import com.framework.service.UserService;
 import com.github.pagehelper.PageInfo;
 import com.framework.pojo.User;
@@ -20,14 +20,14 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-//    @ApiOperation("返回一个商品")
-//    @GetMapping("/userInfo")
-//    public AjaxResult userInfo(UserQuery userQuery){
-//        AjaxResult ajaxResult=new AjaxResult();
-//        PageInfo<User> pageInfo=userService.userInfo(userQuery);
-//        ajaxResult.put("list",pageInfo);
-//        return ajaxResult.success();
-//    }
+    @ApiOperation("返回一个商品")
+    @GetMapping("/userInfo")
+    public AjaxResult userInfo(UserQuery userQuery){
+        AjaxResult ajaxResult=new AjaxResult();
+        PageInfo<User> pageInfo=userService.userInfo(userQuery);
+        ajaxResult.put("list",pageInfo);
+        return ajaxResult;
+    }
     @PostMapping("/userCreate")
     public void userCreated(User userInfo){
       System.out.println(userInfo);

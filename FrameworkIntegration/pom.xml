@@ -6,7 +6,7 @@
     <modules>
         <module>framework</module>
         <module>utils</module>
-        <!--        <module>common</module>-->
+        <module>common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -101,8 +101,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+        <!-- ip to region -->
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>ip2region</artifactId>
+            <version>1.7.2</version>
+        </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
